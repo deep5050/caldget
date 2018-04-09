@@ -1,0 +1,84 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.datepicker {
+  width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 50px 0 rgba(0,0,0,0.2);
+  margin: 50px auto;
+  overflow: hidden;
+  .datepicker-header {
+    height: 250px;
+    background-image: url('https://d13yacurqjgara.cloudfront.net/users/247458/screenshots/2135645/minimalistic_low_poly_style_summer_wallpaper_vector_illustration._small_island_in_the_middle_of_the_ocean_reflecting_in_the_water._tiny_boat_approaching_the_land_on_the_moonlight._flat_design.jpg');
+    background-size: 100%;
+  }
+  .ui-datepicker-inline {
+    padding: 30px;
+  }
+
+  .ui-datepicker-header {
+    text-align: center;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    .ui-datepicker-prev,
+    .ui-datepicker-next {
+      display: inline;
+      float: left;
+      cursor: pointer;
+      font-size: 1.4em;
+      padding: 0 10px;
+      margin-top: -10px;
+      color: #CCC;
+    }
+    
+    .ui-datepicker-next {
+      float: right;
+    }
+  }
+
+  .ui-datepicker-calendar {
+    width: 100%;
+    text-align: center;
+    thead {
+      color: #CCC;
+    }
+    
+    tr {
+      th, td {
+        padding-bottom: .5em;
+      }
+    }
+    a {
+      color: #444;
+      text-decoration: none;
+      display: block;
+      margin: 0 auto;
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      cursor: pointer;
+    }
+    
+    .ui-state-highlight {
+      border-color: #D24D57;
+      color: #D24D57;
+    }
+  }
+}
+
+

@@ -1,0 +1,14 @@
+{
+  "name": "calender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "keywords": [
+    "calender"
+  ],
+  "author": "deep5050",
+  "license": "MIT"
+}
